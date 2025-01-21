@@ -52,3 +52,10 @@
  .text-align{
   text-align: center;
  }
+ .footer{
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 30px;
+  width: 100%;
+ }

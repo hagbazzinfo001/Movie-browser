@@ -1,6 +1,5 @@
 import Hero from "./Hero";
-
-function About() {
+ function About() {
   return (
     <>
       <Hero content={`this is the hero section of my about page`} />
@@ -15,7 +14,7 @@ function About() {
           </div>
         </div>
       </div>
-    </>
+     </>
   );
 }
 

@@ -2,6 +2,7 @@ import Hero from "./Hero";
 import { useParams } from "react-router-dom";
 import { useEffect, useState,   } from "react";
 import { useNavigate} from "react-router-dom";
+ 
 
 // function MovieView(props) {
 //   const { id } = useParams();
@@ -99,7 +100,7 @@ const backtohome=(e)=>{
           </div>
         </div>
       </div>
-    </div>
+     </div>
   );
 }
 

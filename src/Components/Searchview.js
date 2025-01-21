@@ -1,7 +1,7 @@
 // import React from "react";
 import { Link } from "react-router-dom";
 import Hero from "./Hero";
-
+ 
 const MovieCard = ({ movies }) => {
   const posterUrl = `https://image.tmdb.org/t/p/w500${movies.poster_path}`;
   const detailedUrl=`/movies/${movies.id}`
@@ -76,7 +76,7 @@ const Searchview = ({ keyword = "", searchResult = [], loading = false, error = 
       <div className="container">
         <div className="row">{resultHtml}</div>
       </div>
-    </>
+     </>
   );
 };
 

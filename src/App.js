@@ -57,6 +57,7 @@ import NoPage from "./Components/Nopage";
 import About from "./Components/About";
 import Searchview from "./Components/Searchview";
 import MovieView from "./Components/MovieView";
+ 
 
 function App() {
   const [searchText, setSearchText] = useState(""); 
@@ -123,7 +124,7 @@ function App() {
  
         </Routes>
       </header>
-    </div>
+     </div>
   );
 }
 
